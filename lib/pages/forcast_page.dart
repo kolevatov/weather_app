@@ -43,6 +43,22 @@ class _WeatherForecastPageState extends State<WeatherForecastPage> {
       leading: Builder(builder: (BuildContext context) {
         return IconButton(
           onPressed: () {
+            // show SnackBar
+            ScaffoldMessenger.of(context).showSnackBar(
+              SnackBar(
+                backgroundColor: Colors.redAccent,
+                duration: const Duration(seconds: 3),
+                content: SizedBox(
+                  height: 30,
+                  child: Center(
+                    child: Text(
+                      'Loading',
+                      style: Theme.of(context).textTheme.titleMedium,
+                    ),
+                  ),
+                ),
+              ),
+            );
             // refresh GEO location and fetch new forecast
             setState(() {
               forecastObject = WeatherProvider().fetchWeatherForcast();

@@ -14,24 +14,53 @@ final weatherTheme = ThemeData(
   // Text
   textTheme: const TextTheme(
     // Title
-    titleLarge: TextStyle(fontSize: 24, color: Colors.white),
-    titleMedium: TextStyle(fontSize: 18, color: Colors.white),
+    titleLarge: TextStyle(
+      fontSize: 24,
+      color: Colors.white,
+    ),
+    titleMedium: TextStyle(
+      fontSize: 18,
+      color: Colors.white,
+    ),
     titleSmall: TextStyle(
-        color: Colors.white70, fontSize: 16, fontWeight: FontWeight.w500),
+      color: Colors.white70,
+      fontSize: 16,
+      fontWeight: FontWeight.w500,
+    ),
     // Headline
     headlineLarge: TextStyle(
-        color: Colors.white70, fontSize: 46, fontWeight: FontWeight.w300),
+      color: Colors.white70,
+      fontSize: 46,
+      fontWeight: FontWeight.w300,
+    ),
     headlineMedium: TextStyle(
-        color: Colors.white, fontSize: 36, fontWeight: FontWeight.w300),
-    headlineSmall: TextStyle(fontSize: 16, color: Colors.white70),
+      color: Colors.white,
+      fontSize: 36,
+      fontWeight: FontWeight.w300,
+    ),
+    headlineSmall: TextStyle(
+      fontSize: 16,
+      color: Colors.white70,
+    ),
     // Body
     bodyLarge: TextStyle(
-        color: Colors.white70, fontSize: 24, fontWeight: FontWeight.w300),
+      color: Colors.white70,
+      fontSize: 24,
+      fontWeight: FontWeight.w300,
+    ),
     bodyMedium: TextStyle(
-        color: Colors.white70, fontSize: 18, fontWeight: FontWeight.w700),
+      color: Colors.white70,
+      fontSize: 18,
+      fontWeight: FontWeight.w700,
+    ),
     bodySmall: TextStyle(
-        color: Colors.white70, fontSize: 16, fontWeight: FontWeight.w300),
+      color: Colors.white70,
+      fontSize: 16,
+      fontWeight: FontWeight.w300,
+    ),
   ),
   // Icons
-  iconTheme: const IconThemeData(color: Colors.white),
+  iconTheme: const IconThemeData(
+    color: Colors.white,
+  ),
 );

@@ -61,7 +61,11 @@ class WeeklyForecast extends StatelessWidget {
           style: Theme.of(context).textTheme.bodyLarge,
         ),
         Text(
-          'day: min $minDay °C | max $maxDay °C',
+          'min: $minDay °C',
+          style: Theme.of(context).textTheme.bodySmall,
+        ),
+        Text(
+          'max: $maxDay °C',
           style: Theme.of(context).textTheme.bodySmall,
         ),
         Text(

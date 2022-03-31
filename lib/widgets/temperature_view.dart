@@ -17,7 +17,7 @@ class TempView extends StatelessWidget {
       children: <Widget>[
         Image.network(
           icon!,
-          scale: 0.5,
+          scale: 0.7,
         ),
         const SizedBox(
           width: 8.0,

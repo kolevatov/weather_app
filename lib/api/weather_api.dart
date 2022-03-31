@@ -35,7 +35,7 @@ class WeatherProvider {
 
     if (response.statusCode == 200) {
       // successful request
-      log(response.body);
+      //log(response.body);
       return WeatherForecast.fromJson(json.decode(response.body));
     } else {
       // request is failed
